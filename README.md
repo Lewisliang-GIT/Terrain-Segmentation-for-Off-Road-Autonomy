@@ -12,8 +12,10 @@ The project implemented and compared two CNN-based methods.
 
 >SegNet: A custom encoder-decoder architecture built from scratch. It uses max-pooling indices for non-linear upsampling in the decoder to recover boundary details. The model was initially prone to overfitting with a deeper architecture (5 encoder/decoder blocks). Overfitting was reduced by simplifying the network to 2 encoder/decoder blocks, which yielded a validation mIoU of ~0.55.
 
-I simplify the structure of the SegNet to let it easier running in my MacBook pro.
+I simplify the structure of the SegNet to let it easier running in my MacBook pro (16GB).
 
 The study found a significant challenge with pixel imbalance between classes in the dataset.
+
+![output](output.png "Predicted Mask")
 
 [^1]: The label in the dataset was remark by ourselves. Data label is little unbalence canparing the original dataset.
